@@ -1,0 +1,97 @@
+/*Find out how to make the caption of the link font at the top of the page bold.*/
+
+a {
+	color:white;
+}
+
+a:active {
+	color: white;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+body {
+	font-family: arial;
+	padding: 20px;
+}
+
+figcaption {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+footer {
+	background: #3F92BF;
+	padding: 10px 20px;
+	height: 30px;
+}
+
+h1 {
+	background: none;
+	color: black;
+	font-size: 60px;
+	/*text-align: center;*/
+}
+	
+header {
+	background-image: url("Header.jpg");
+	background-position: center;
+	background-size: 100%;
+	color: white;
+	height: 400px;	
+	padding: 20px;
+}
+
+li {
+	display: inline-block;
+	margin: 20px;
+}
+
+li:first-child {
+	margin-left: 0;
+}
+
+p {
+	color: black;
+	padding: 25px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.logo {
+	background-image: url("AfroAfrica.jpg");
+	display: inline-block;
+	height: 90px;
+	position: relative;
+	text-indent: -999999px;
+	top: -30px;
+	width: 80px;
+}
+
+.features {
+	background: white;
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+}
+
+.features figure {
+	margin: auto;
+	text-align: center;
+	/*width: 400px;*/
+}
+
+.features figure img {
+	border-radius: 50%;
+	width: 300px;
+	border: 10px solid;
+   	color: #3F92BF;
+}
+
+.special {
+	color: pink;
+}

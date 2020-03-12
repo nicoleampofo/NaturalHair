@@ -1,0 +1,52 @@
+
+/*I would like the background to be slategray with pictures aligned on the
+left side of the screen and all one under the other, with plenty of space between
+each paragraph/description.*/
+
+/*Gave up attempting to make the links at the top of the page inline-block, and
+the li on the rest of the page just block.*/
+
+body {
+	font-family: arial;
+	padding: 20px;
+}
+
+h1 {
+	background: none;
+	color: black;
+	font-size: 40px;
+	/*text-align: center;*/
+}
+
+/*li {
+	display: block;
+	margin: 20px;
+	width: 1000px;
+}*/
+
+p {
+	color: black;
+	padding: 25px;
+	}
+
+a.headerlink {
+	display: inline-block;
+}
+
+.logo {
+	background-image: url("AfroAfrica.jpg");
+	display: inline-block;
+	height: 90px;
+	position: relative;
+	text-indent: -999999px;
+	top: -30px;
+	width: 80px;
+}
+
+a:active {
+	color: grey;
+
+}a:link {
+	text-decoration: none;
+}
+

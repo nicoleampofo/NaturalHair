@@ -1,11 +1,3 @@
-
-/*I would like the background to be slategray with pictures aligned on the
-left side of the screen and all one under the other, with plenty of space between
-each paragraph/description.*/
-
-/*Gave up attempting to make the links at the top of the page inline-block, and
-the li on the rest of the page just block.*/
-
 body {
 	font-family: arial;
 	padding: 20px;

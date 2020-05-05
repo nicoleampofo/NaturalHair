@@ -1,3 +1,8 @@
+
+a {
+	color: white;
+}
+
 body {
 	font-family: arial;
 	padding: 20px;
@@ -8,23 +13,13 @@ h1 {
 	background: none;
 	color: black;
 	font-size: 40px;
-	/*text-align: center;*/
+	margin-top: 0px;
 }
-
-/*li {
-	display: block;
-	margin: 20px;
-	width: 1000px;
-}*/
 
 p {
 	color: black;
 	padding: 25px;
 	}
-
-a.headerlink {
-	display: inline-block;
-}
 
 .logo {
 	background-image: url("AfroAfrica.jpg");
@@ -37,9 +32,21 @@ a.headerlink {
 }
 
 a:active {
-	color: grey;
+	color: white;
 
-}a:link {
+}
+
+a:link {
 	text-decoration: none;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 

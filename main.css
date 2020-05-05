@@ -30,7 +30,6 @@ h1 {
 	background: none;
 	color: black;
 	font-size: 60px;
-	/*text-align: center;*/
 }
 	
 header {
@@ -80,14 +79,12 @@ ul {
 .features figure {
 	margin: auto;
 	text-align: center;
-	/*width: 400px;*/
 }
 
 .features figure img {
 	border-radius: 50%;
 	width: 300px;
-	border: 10px solid;
-   	color: #3F92BF;
+	border: 7px solid #3F92BF;
 }
 
 .special {

@@ -21,7 +21,7 @@ p {
 	padding: 25px;
 	}
 
-.logo {
+header .logo a {
 	background-image: url("AfroAfrica.jpg");
 	display: inline-block;
 	height: 90px;
@@ -29,6 +29,10 @@ p {
 	text-indent: -999999px;
 	top: -30px;
 	width: 80px;
+}
+
+li {
+	padding-bottom: 8px;
 }
 
 a:active {
@@ -50,3 +54,43 @@ nav ul li {
 	margin-right: 20px;
 }
 
+.steps {
+	padding-left: 60px;
+	width: 1100px;
+}
+
+
+ #box-container {
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  	align-items: center;
+}
+
+ .books {
+	border: solid lightgray 7px;
+	width: 300px;
+	height: 400px;
+}
+
+ .aboutme {
+ 	width: 800px;
+ 	height: 100%;
+ 	text-align: justify;
+ 	line-height: 1.6;
+ 	font-size: 18px;
+ 	margin: 30px;
+ }
+
+img.pagesixphoto {
+	float: left;
+	margin-right: 30px;
+	border: solid 7px #3F92BF;
+	height: 200px;
+	width: auto;
+}
+
+/*div {
+	background: purple;
+}*/
